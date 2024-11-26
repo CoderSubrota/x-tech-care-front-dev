@@ -51,8 +51,8 @@ const LineChart = () => {
       style={{
         width: "100%",
         margin: "auto",
-        height: "180px",
-        marginBottom: "28px",
+        height: "210px",
+        marginBottom: "0px",
       }}
     >
 

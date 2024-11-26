@@ -3,7 +3,7 @@ import React from "react";
 const Reporte = () => {
   return (
     <>
-      <div class="card-group" style={{ marginTop: "122px" }}>
+      <div class="card-group" style={{ marginTop: "25px" }}>
         <div class="card mx-2" style={{ width: "655px" }}>
           <img
             src="https://i.ibb.co.com/dg6MxP0/temp.jpg"
