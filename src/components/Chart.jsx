@@ -4,7 +4,8 @@ import PieChart from "./PieChart";
 const Chart = () => {
  return (
     <>
-      <div className="container">
+          <h2 className="fs-3 my-4"> Diagnosis History </h2>
+      <div className="container charts">
         <div className="row">
             <div className="col">
                 <LineChart></LineChart>

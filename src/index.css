@@ -91,13 +91,16 @@
   border-radius: 38px;
   padding: 10px;
 }
-
 .leftSideCard:hover{
 background-color: rgba(0, 255, 255, 0.381);
 transition: background-color 1s;
 cursor: pointer;
 }
-
+.charts{
+  background-color: #F4F0FE;
+  padding-bottom: 25px;
+  border-radius: 14px;
+}
 @media screen and (max-width:1000px) {
   .Leftside {
     height: 500px;

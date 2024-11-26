@@ -55,7 +55,6 @@ const LineChart = () => {
         marginBottom: "28px",
       }}
     >
-      <h2 className="fs-3 my-4"> Diagnosis History </h2>
 
       <Line data={data} options={options}  className="my-4"/>
     </div>

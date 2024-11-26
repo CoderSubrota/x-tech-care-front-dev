@@ -16,7 +16,7 @@ const Leftside = () => {
           return (
             <div
               key={item.id || index} // Use a unique identifier if available
-              className="row border rounded shadow-sm position-relative my-2 pb-2 leftSideCard"
+              className="row border rounded shadow-sm position-relative my-2 mx-2 pb-2 leftSideCard"
               style={{ height: "100px" }}
             >
               {/* Profile Section */}
