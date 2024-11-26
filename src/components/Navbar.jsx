@@ -34,8 +34,8 @@ const Navbar = () => {
                     Overview
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link patientsLink" href="/">
+                <li className="nav-item patientsLink">
+                  <a className="nav-link " href="/">
                     <BsPeopleFill className="mx-2"></BsPeopleFill>
                     Patients
                   </a>
