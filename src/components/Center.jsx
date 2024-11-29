@@ -2,13 +2,14 @@
 import Chart from "./Chart";
 import Reporte from "./Reporte";
 
-const Center = () => {
+const Center = (data) => {
+
   return (
     <>
       <div className="center">
         <div className="chart">
-          <Chart></Chart>
-          <Reporte></Reporte>
+          <Chart data={data}></Chart>
+          <Reporte data={data}></Reporte>
         </div>
       </div>
     </>

@@ -66,9 +66,9 @@ const Navbar = () => {
             <div className="row">
               <div className="col-10">
                 <div className="container">
-                  <div className="row">
-                   <div className="col d-flex">
-                   <div className="col-4  d-none  d-lg-block">
+                  <div className="row d-none  d-lg-block">
+                   <div className="col  d-flex">
+                   <div className="col-4">
                         <img src="https://i.ibb.co.com/gmXDGJK/kalla.png" alt="user profile picture"  className="navProfile"/>
                     </div>
                     <div className="col-8">
@@ -81,7 +81,7 @@ const Navbar = () => {
               </div>
               <div className="col-2 mt-2">
                 <div className="container">
-                  <div className="row">
+                  <div className="row d-none  d-lg-block">
                       <div className="col d-flex justify-content-center">
                       <div className="col"><IoSettings className="fs-4 mx-2"/></div>
                       <div className="col"><HiDotsVertical  className="fs-4 mx-2"/></div>

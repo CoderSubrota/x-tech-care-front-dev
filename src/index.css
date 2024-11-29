@@ -22,7 +22,7 @@
 }
 
 .Leftside {
-  height: 500px;
+  height: 600px;
   overflow: auto;
   width: 350px;
 }
@@ -101,10 +101,25 @@ cursor: pointer;
   padding-bottom: 25px;
   border-radius: 14px;
 }
+.navbar{
+  background-color: #F4F0FE;
+}
+.footer{
+  background-color: #F4F0FE;
+}
 @media screen and (max-width:1000px) {
   .Leftside {
     height: 500px;
     overflow: auto;
     width:100vw;
   }
+}
+.card-group > .card {
+  width: 655px;
+}
+@media screen and (max-width:800px) {
+.card-group > .card{
+  margin:auto;
+  width: 300px;
+}
 }
