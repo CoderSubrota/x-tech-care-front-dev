@@ -113,13 +113,20 @@ cursor: pointer;
     overflow: auto;
     width:100vw;
   }
+  .card-group > .card {
+    width: 655px;
+  }
 }
-.card-group > .card {
-  width: 655px;
-}
+
 @media screen and (max-width:800px) {
 .card-group > .card{
   margin:auto;
-  width: 300px;
+  width: 200px;
 }
+.report > .card > .card-img-top  {
+  height: 355px;
+  width: 324px;
+}
+.report > .card{border: none; }
+.report{margin-bottom: 155px;}
 }

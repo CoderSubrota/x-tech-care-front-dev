@@ -7,7 +7,7 @@ const Reporte = (data) => {
 
   return (
     <>
-      <div className="card-group" style={{ marginTop: "25px" }}>
+      <div className="card-group report" style={{ marginTop: "25px" }}>
         {rateData === undefined ? (
           <>
             <div className="card mx-2">

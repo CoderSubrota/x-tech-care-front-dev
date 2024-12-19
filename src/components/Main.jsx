@@ -19,7 +19,7 @@ const Main = () => {
       <div class="container my-4">
         <div class="row">
           <div class="col">
-            <div className="Leftside  d-md-w-full">
+            <div className="Leftside ">
               <div className="d-flex  justify-content-between p-3">
                 <h3>Patients</h3>
                 <h3>
